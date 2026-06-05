@@ -1,7 +1,6 @@
 import OpenAI from "openai"
 import { Types } from "mongoose"
 import { LLMTimeoutError } from "../utils/errors"
-import { LLMTimeoutError } from "../utils/errors"
 
 const client = new OpenAI({
   baseURL: "https://api.groq.com/openai/v1",
