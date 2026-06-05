@@ -9,7 +9,7 @@ import { logger } from "../utils/logger"
 export const createAssignment = async (req: Request, res: Response) => {
   const parsed = CreateAssignmentSchema.safeParse(req.body)
   if (!parsed.success) {
-    return res.status(400).json({ message: parsed.error.errors[0].message })
+    return res.status(400).json({ message: parsed.error.issues[0].message })
   }
 
   try {
