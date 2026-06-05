@@ -1,5 +1,9 @@
 # VedaAI – Enterprise AI Assessment Creator
 
+### 🌐 Live Demo
+- **Frontend**: [https://veda-ai-rosy-eight.vercel.app](https://veda-ai-rosy-eight.vercel.app)
+- **Backend API**: [https://veda-ai-shaaz.onrender.com](https://veda-ai-shaaz.onrender.com)
+
 This repository contains the complete full-stack implementation of the VedaAI Full Stack Engineering Assignment. It is an enterprise-grade, AI-powered assessment creator that lets teachers dynamically generate structured question papers using LLMs, selectively regenerate questions, and download cleanly formatted PDF outputs.
 
 The project perfectly matches the Figma UI specifications and features an extremely robust, fault-tolerant asynchronous generation pipeline built with BullMQ, Redis, WebSockets, and Idempotency protocols.
